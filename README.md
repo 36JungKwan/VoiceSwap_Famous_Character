@@ -1,2 +1,66 @@
-# VoiceSwap_Famous_Character
+# VoiceSwap with Famous Character
 A game-based app build with PyQT5, whisper for Speech to text, YourTTS for Voice cloning
+
+Ứng dụng game tương tác thử thách người chơi về khả năng bắt chước giọng nói của các nhân vật nổi tiếng. Người chơi xem đoạn video bị tắt tiếng ở một câu thoại nổi tiếng, sau đó thu âm lại giọng chính mình và hệ thống sẽ chuyển giọng bạn thành giọng nhân vật gốc để so sánh!
+
+## 🧠 Tính năng
+
+- 🎬 Phát video nhân vật nổi tiếng và tự động tắt tiếng đúng đoạn thoại.
+- 🎤 Ghi âm giọng nói người chơi.
+- 🔁 Nghe lại giọng gốc đã ghi.
+- 🗣 Chuyển đổi giọng nói của bạn sang giọng nhân vật (dùng YourTTS).
+- 📝 Chuyển giọng nói thành văn bản (dùng Whisper).
+- ✅ So sánh và hiển thị kết quả đúng/sai.
+- 🔊 Nghe lại giọng đã chuyển đổi.
+- 🎨 Giao diện đẹp, hỗ trợ xem toàn màn hình, thao tác mượt.
+
+## 📂 Cấu trúc thư mục
+
+├── video_clips/
+
+│ ├── obama.mp4
+
+│ ├── tony.mp4
+
+│ └── yoda.mp4
+
+├── ref_voices/
+
+│ ├── Obama.wav
+
+│ ├── Tony_Stark.wav
+
+│ └── Yoda.wav
+
+├── recorded_voice/
+
+│ └── recorded.wav
+
+├── generated_voice/
+
+│ └── output.wav
+
+├── app.py
+
+├── requirements.txt
+
+└── README.md
+
+## ▶️ Cách chạy
+
+**Cài đặt thư viện cần thiết**
+   pip install -r requirements.txt
+   
+## Chạy ứng dụng:
+
+python VoiceSwap_YourTTS.py
+
+## 🛠 Yêu cầu phần cứng
+
+GPU (khuyến nghị) để xử lý nhanh hơn với Whisper và YourTTS.
+
+Microphone và loa hoạt động tốt để ghi âm & phát lại.
+
+## ✨ Ghi chú
+
+Video và voice reference phải khớp để kết quả chuyển đổi giọng đúng chất lượng.
