@@ -53,6 +53,14 @@ A game-based app build with PyQT5, whisper for Speech to text, YourTTS for Voice
 
 **Cài đặt thư viện cần thiết**
    pip install -r requirements.txt
+
+## 🧩 Lưu ý về phát video (Windows)
+
+Để đảm bảo video `.mp4` chạy đúng trên `QMediaPlayer`, bạn cần cài **K-Lite Codec Pack**:
+
+- 👉 Tải tại: [https://codecguide.com/download_kl.htm](https://codecguide.com/download_k-lite_codec_pack_standard.htm)
+- Bạn đang cài bản **Standard** để đảm bảo hỗ trợ định dạng `.mp4` (H.264).
+- Vào web và nhấn vào link `Server 1` dưới mục Location trong phần Download
    
 ## Chạy ứng dụng:
 
@@ -67,7 +75,5 @@ Microphone và loa hoạt động tốt để ghi âm & phát lại.
 ## ✨ Ghi chú
 
 - Vui lòng giữ nguyên cấu trúc thư mục để video, voice reference khớp và cho ra kết quả chuyển đổi giọng đúng chất lượng.
-
 - Thay đổi các path (đường dẫn) nếu cần
-
 - Lần đầu chạy app sẽ khá tốn thời gian vì các thư viện sẽ tự động tải model (whisper, YourTTS) về nếu chưa có
