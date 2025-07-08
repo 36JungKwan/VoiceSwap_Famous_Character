@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 Để đảm bảo video `.mp4` chạy đúng trên `QMediaPlayer`, bạn cần cài **K-Lite Codec Pack**:
 
-- 👉 Tải tại: [https://codecguide.com/download_kl.htm](https://codecguide.com/download_k-lite_codec_pack_standard.htm)
+- 👉 Tải tại: [codec standard pack](https://codecguide.com/download_k-lite_codec_pack_standard.htm)
 - Bạn đang cài bản **Standard** để đảm bảo hỗ trợ định dạng `.mp4` (H.264).
 - Vào web và nhấn vào link `Server 1` dưới mục Location trong phần Download
    
