@@ -48,7 +48,7 @@
 
 **Clone repo về máy**
 
-git clone https://github.com/36JungKwan/VoiceSwap_Famous_Character
+git clone 'https://github.com/36JungKwan/VoiceSwap_Famous_Character'
 
 **Cài đặt thư viện cần thiết**
 
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 Để đảm bảo video `.mp4` chạy đúng trên `QMediaPlayer`, bạn cần cài **K-Lite Codec Pack**:
 
-- 👉 Tải tại: [codec standard pack](https://codecguide.com/download_k-lite_codec_pack_standard.htm)
+- 👉 Tải tại: https://codecguide.com/download_k-lite_codec_pack_standard.htm
 - Bạn đang cài bản **Standard** để đảm bảo hỗ trợ định dạng `.mp4` (H.264).
 - Vào web và nhấn vào link `Server 1` dưới mục Location trong phần Download
    
