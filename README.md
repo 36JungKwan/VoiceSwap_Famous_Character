@@ -1,6 +1,4 @@
 # VoiceSwap with Famous Character
-A game-based app build with PyQT5, whisper for Speech to text, YourTTS for Voice cloning
-
 Ứng dụng game tương tác thử thách người chơi về khả năng bắt chước giọng nói của các nhân vật nổi tiếng. Người chơi xem đoạn video bị tắt tiếng ở một câu thoại nổi tiếng, sau đó thu âm lại giọng chính mình và hệ thống sẽ chuyển giọng bạn thành giọng nhân vật gốc để so sánh!
 
 ## 🧠 Tính năng
