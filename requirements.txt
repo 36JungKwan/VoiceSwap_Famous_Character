@@ -1,0 +1,7 @@
+PyQt5==5.15.11
+whisper==1.1.10
+torch==2.8.0
+soundfile==0.13.1
+sounddevice==0.5.2
+TTS==0.22.0
+numpy==2.1.3
