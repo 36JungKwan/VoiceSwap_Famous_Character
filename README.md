@@ -48,7 +48,7 @@
 
 **Clone repo về máy**
 
-git clone 'https://github.com/36JungKwan/VoiceSwap_Famous_Character'
+git clone https://github.com/36JungKwan/VoiceSwap_Famous_Character
 
 **Cài đặt thư viện cần thiết**
 
