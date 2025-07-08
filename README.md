@@ -10,7 +10,6 @@
 - 📝 Chuyển giọng nói thành văn bản (dùng Whisper).
 - ✅ So sánh và hiển thị kết quả đúng/sai.
 - 🔊 Nghe lại giọng đã chuyển đổi.
-- 🎨 Giao diện đẹp, hỗ trợ xem toàn màn hình, thao tác mượt.
 
 ## 📂 Cấu trúc thư mục
 
