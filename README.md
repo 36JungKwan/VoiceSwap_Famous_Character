@@ -48,6 +48,9 @@ A game-based app build with PyQT5, whisper for Speech to text, YourTTS for Voice
 
 ## ▶️ Cách chạy
 
+**Clone repo về máy**
+   git clone https://github.com/36JungKwan/VoiceSwap_Famous_Character
+
 **Cài đặt thư viện cần thiết**
    pip install -r requirements.txt
    
@@ -63,4 +66,8 @@ Microphone và loa hoạt động tốt để ghi âm & phát lại.
 
 ## ✨ Ghi chú
 
-Video và voice reference phải khớp để kết quả chuyển đổi giọng đúng chất lượng.
+- Vui lòng giữ nguyên cấu trúc thư mục để video, voice reference khớp và cho ra kết quả chuyển đổi giọng đúng chất lượng.
+
+- Thay đổi các path (đường dẫn) nếu cần
+
+- Lần đầu chạy app sẽ khá tốn thời gian vì các thư viện sẽ tự động tải model (whisper, YourTTS) về nếu chưa có
